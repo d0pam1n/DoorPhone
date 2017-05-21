@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:inputType="number"
+        android:key="setting_echo_cancellation_tail_length"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:numeric="integer"
+        android:phoneNumber="true"
+        android:digits="0123456789"
+        android:title="@string/settings_echo_cancellation_tail_length"
+        android:defaultValue="30"/>
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/settings_echo_cancellation_aggressiveness_entries"
+        android:entryValues="@array/settings_echo_cancellation_aggressiveness_entry_values"
+        android:key="setting_echo_cancellation_aggressiveness"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/settings_echo_cancellation_aggressiveness" />
+    <CheckBoxPreference
+        android:key="setting_echo_cancellation_noise_reduction"
+        android:title="@string/settings_echo_cancellation_noise_reduction"
+        android:defaultValue="false"/>
+</PreferenceScreen>

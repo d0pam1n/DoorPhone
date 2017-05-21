@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="setting_use_ringtone"
+        android:title="@string/settings_audio_use_ringtone"
+        android:defaultValue="true"/>
+    <CheckBoxPreference
+        android:key="setting_use_vibrator"
+        android:title="@string/settings_audio_use_vibrator"
+        android:defaultValue="true"/>
+    <RingtonePreference
+        android:showDefault="true"
+        android:key="setting_ringtone"
+        android:title="@string/settings_audio_ringtone"
+        android:ringtoneType="notification|ringtone" />
+</PreferenceScreen>

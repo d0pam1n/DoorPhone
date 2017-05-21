@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="setting_start_service_on_boot"
+        android:title="@string/settings_advanced_start_service_on_boot" />
+
+    <CheckBoxPreference
+        android:key="setting_start_app_on_incoming_call"
+        android:title="@string/settings_advanced_start_app_on_incoming_call"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="setting_close_after_call"
+        android:title="@string/settings_advanced_close_after_call" />
+
+</PreferenceScreen>

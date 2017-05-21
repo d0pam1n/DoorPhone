@@ -1,0 +1,29 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.d0pam1n.doorphone.ui.SettingsActivity$SipPreferenceFragment"
+        android:title="@string/pref_header_general" />
+
+    <header
+        android:fragment="com.d0pam1n.doorphone.ui.SettingsActivity$VideoPreferenceFragment"
+        android:title="@string/pref_header_data_sync" />
+
+    <header
+        android:fragment="com.d0pam1n.doorphone.ui.SettingsActivity$AudioPreferenceFragment"
+        android:title="@string/pref_header_audio" />
+
+    <header
+        android:fragment="com.d0pam1n.doorphone.ui.SettingsActivity$CommandsPreferenceFragment"
+        android:title="@string/pref_header_commands" />
+
+    <header
+        android:fragment="com.d0pam1n.doorphone.ui.SettingsActivity$NotificationsPreferenceFragment"
+        android:title="@string/pref_header_notifications" />
+
+    <header
+        android:fragment="com.d0pam1n.doorphone.ui.SettingsActivity$AdvancedPreferenceFragment"
+        android:title="@string/pref_header_advanced" />
+
+</preference-headers>

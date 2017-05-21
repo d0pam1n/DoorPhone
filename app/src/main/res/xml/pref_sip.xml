@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="sip_account_preferences"
+        android:title="@string/pref_header_sip_account" />
+
+    <Preference
+        android:key="echo_cancellation_preferences"
+        android:title="@string/pref_header_echo_cancellation"/>
+
+</PreferenceScreen>

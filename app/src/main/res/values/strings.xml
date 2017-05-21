@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">DoorPhone</string>
+    <string name="package_name">com.d0pam1n.doorphone</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_drawer_item_settings">Einstellungen</string>
+    <string name="nav_drawer_item_about">Über</string>
+    <string name="nav_drawer_item_close">Beenden</string>
+
+    <string name="service_name">DoorPhone Service</string>
+    <string name="notification_registered">Registriert</string>
+    <string name="notification_not_registered">Nicht registriert</string>
+
+    <string name="message_not_media_url">Keine Video-URL angegeben.</string>
+    <string name="message_could_not_play_video">Fehler beim Abspielen des Videos.</string>
+
+    <string name="quit_app_text">Willst du die Anwendung wirklich beenden?</string>
+    <string name="quit_app_yes">Ja</string>
+    <string name="quit_app_no">Nein</string>
+
+    <!-- INTENT PARAMS -->
+    <string name="param_call_id">CALL_ID</string>
+    <string name="param_account_id">ACCOUNT_ID</string>
+    <string name="param_dtmf_open_door">DTMF_OPEN_DOOR</string>
+    <string name="param_close_after_call">CLOSE_AFTER_CALL</string>
+    <string name="param_player_playing">PLAYER_PLAYING</string>
+
+    <!-- Notifications -->
+    <string name="notif_incoming_call_intent_action">NOTIF_ACCEPT_CALL</string>
+    <string name="notif_incoming_call_intent_action_hangup">NOTIF_HANGUP_CALL</string>
+    <string name="notif_incoming_call_intent_action_open_door">NOTIF_OPEN_DOOR</string>
+    <string name="notif_incoming_call_title">Eingehender Anruf</string>
+    <string name="notif_incoming_call_activ_title">Gespräch aktiv...</string>
+    <string name="notif_incoming_call_text">Jemand hat an der Türe geklingelt.</string>
+    <string name="notif_incoming_call_action_accept">Annehmen</string>
+    <string name="notif_incoming_call_action_hangup">Auflegen</string>
+    <string name="notif_incoming_call_action_open_door">Tür öffnen</string>
+
+
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="title_activity_about">Über</string>
+
+    <!-- SIP settings -->
+    <string name="pref_header_general">SIP</string>
+
+    <string name="pref_header_sip_account">SIP Account</string>
+
+    <string name="settings_sip_username_title">Benutzername</string>
+    <string name="settings_sip_password_title">Passwort</string>
+    <string name="settings_sip_realm_title">Realm</string>
+    <string name="settings_sip_host_title">Host</string>
+    <string name="settings_sip_port_title">Port</string>
+    <string name="settings_sip_transport_title">Transport Typ</string>
+
+    <string-array name="settings_sip_transport_values">
+        <item>TCP</item>
+        <item>UDP</item>
+        <item>TLS</item>
+    </string-array>
+
+
+    <string name="pref_header_echo_cancellation">Echo Unterdrückung</string>
+
+    <string name="settings_echo_cancellation_tail_length">Tail length (ms)</string>
+    <string name="settings_echo_cancellation_noise_reduction">Geräuschunterdrückung</string>
+    <string name="settings_echo_cancellation_aggressiveness">Aggressivität</string>
+
+    <string-array name="settings_echo_cancellation_aggressiveness_entries">
+        <item>Standard</item>
+        <item>Konservativ</item>
+        <item>Moderat</item>
+        <item>Agressiv</item>
+    </string-array>
+
+    <string-array name="settings_echo_cancellation_aggressiveness_entry_values">
+        <item>ECHO_AGGRESSIVENESS_DEFAULT</item>
+        <item>ECHO_AGGRESSIVENESS_CONVERVATIVE</item>
+        <item>ECHO_AGGRESSIVENESS_MODERATE</item>
+        <item>ECHO_AGGRESSIVENESS_AGGRESSIV</item>
+    </string-array>
+
+
+    <!-- Video settings -->
+    <string name="pref_header_data_sync">Video</string>
+    <string name="settings_video_path_title">Video-Pfad</string>
+    <string name="settings_video_format">Video-Format</string>
+
+    <string-array name="settings_video_format_entries">
+        <item>Best fit</item>
+        <item>Fit horizontal</item>
+        <item>Fit vertical</item>
+        <item>Fill</item>
+        <item>16:9</item>
+        <item>4:3</item>
+        <item>Original</item>
+    </string-array>
+
+    <string-array name="settings_video_format_entry_values">
+        <item>SURFACE_BEST_FIT</item>
+        <item>SURFACE_FIT_HORIZONTAL</item>
+        <item>SURFACE_FIT_VERTICAL</item>
+        <item>SURFACE_FILL</item>
+        <item>SURFACE_16_9</item>
+        <item>SURFACE_4_3</item>
+        <item>SURFACE_ORIGINAL</item>
+    </string-array>
+
+    <!-- Audio settings -->
+    <string name="pref_header_audio">Audio</string>
+    <string name="settings_audio_use_ringtone">Klingelton aktiv</string>
+    <string name="settings_audio_use_vibrator">Bei Anruf vibrieren</string>
+    <string name="settings_audio_ringtone">Klingelton</string>
+
+    <!-- Control commands settings -->
+    <string name="pref_header_commands">Befehle</string>
+    <string name="settings_commands_unlock_dtmf">DTMF / Türöffner</string>
+    <string name="settings_commands_doorpi_number">DoorPi-Nummer</string>
+
+    <!-- Notification settings -->
+    <string name="pref_header_notifications">Benachrichtigungen</string>
+    <string name="settings_notification_show">Benachrichtigung bei Anruf</string>
+
+    <!-- Advanced settings -->
+    <string name="pref_header_advanced">Erweiterte Einstellungen</string>
+    <string name="settings_advanced_start_service_on_boot">Autostart</string>
+    <string name="settings_advanced_close_after_call">Schließen nach Auflegen</string>
+    <string name="settings_advanced_start_app_on_incoming_call">App bei Anruf öffnen</string>
+
+
+    <!-- Crash report -->
+    <string name="crash_toast_text">DoorPhone crashed... Sorry for that!</string>
+
+    <!-- ABOUT -->
+    <string name="about_link_repository">GitHub Repository</string>
+    <string name="about_link_bugs">Du hast einen Fehler gefunden? Melde ihn hier</string>
+    <string name="about_author_mail">Andi.Dopamin@gmail.com</string>
+    <string name="about_project_name">DoorPhone</string>
+    <string name="about_version_title">Version</string>
+    <string name="about_license_title">Lizenz</string>
+    <string name="about_project_license">General Public License (GPL) 3</string>
+    <string name="about_title_bugs">Einen Fehler melden</string>
+    <string name="about_title_author">Autor</string>
+    <string name="about_author">Andreas Pfister</string>
+    <string name="about_author_git_name">AndreasPfister</string>
+    <string name="about_title_mail">Eine E-Mail senden</string>
+    <string name="about_title_libs">Open Source Bibliotheken</string>
+    <string name="about_lib_pjsip">PJSIP</string>
+    <string name="about_lib_pjsip_license">General Public License (GPL) 2 oder later</string>
+    <string name="about_lib_libvlc">LibVLC</string>
+    <string name="about_lib_libvlc_license">Lesser General Public License (LGPL) 2</string>
+
+    <string name="about_error_version_not_found">Error getting version number.</string>
+
+</resources>

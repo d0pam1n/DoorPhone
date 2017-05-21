@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:inputType="text"
+        android:key="setting_unlock_dtmf"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/settings_commands_unlock_dtmf" />
+    <EditTextPreference
+        android:inputType="text"
+        android:key="setting_doorpi_number"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/settings_commands_doorpi_number" />
+</PreferenceScreen>

@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:inputType="text"
+        android:key="setting_video_path"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/settings_video_path_title" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/settings_video_format_entries"
+        android:entryValues="@array/settings_video_format_entry_values"
+        android:key="setting_video_format"
+        android:title="@string/settings_video_format" />
+
+</PreferenceScreen>
