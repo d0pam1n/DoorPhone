@@ -1,5 +1,5 @@
 # DoorPhone
-DoorPhone is an Android APP acting like a SIP-Client for an Intercomstation. This project is delevoped in connection with the Open Source Software [DoorPi](https://github.com/motom001/DoorPi) but could be used with other "doorbell" software too.
+DoorPhone is an Android APP acting like a SIP-Client for an Door-Intercomstation. This project is delevoped in connection with the Open Source Software [DoorPi](https://github.com/motom001/DoorPi) but could be used with other "doorbell" software too.
 
 The software is still under development so no guarantee related to use in production.
 
