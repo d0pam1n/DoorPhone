@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">DoorPhone</string>
+    <string name="package_name">com.d0pam1n.doorphone</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_drawer_item_settings">Settings</string>
+    <string name="nav_drawer_item_about">About</string>
+    <string name="nav_drawer_item_close">Quit</string>
+
+    <string name="service_name">DoorPhone Service</string>
+    <string name="notification_registered">Registered</string>
+    <string name="notification_not_registered">Not registered</string>
+
+    <string name="message_not_media_url">no video url specified.</string>
+    <string name="message_could_not_play_video">Error playing the video</string>
+
+    <string name="quit_app_text">Do you really want to quit?</string>
+    <string name="quit_app_yes">Yes</string>
+    <string name="quit_app_no">No</string>
+
+    <!-- Notifications -->
+    <string name="notif_incoming_call_title">Incoming call</string>
+    <string name="notif_incoming_call_activ_title">Active call...</string>
+    <string name="notif_incoming_call_text">Someone rang on the door.</string>
+    <string name="notif_incoming_call_action_accept">Accept</string>
+    <string name="notif_incoming_call_action_hangup">Hang up.</string>
+    <string name="notif_incoming_call_action_open_door">Open the door.</string>
+
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_about">About</string>
+
+    <!-- SIP settings -->
+    <string name="pref_header_general">SIP</string>
+
+    <string name="pref_header_sip_account">SIP Account</string>
+
+    <string name="settings_sip_username_title">Username</string>
+    <string name="settings_sip_password_title">Password</string>
+    <string name="settings_sip_realm_title">Realm</string>
+    <string name="settings_sip_host_title">Host</string>
+    <string name="settings_sip_port_title">Port</string>
+    <string name="settings_sip_transport_title">Transport type</string>
+
+    <string-array name="settings_sip_transport_values">
+        <item>TCP</item>
+        <item>UDP</item>
+        <item>TLS</item>
+    </string-array>
+
+
+    <string name="pref_header_echo_cancellation">Echo cancellation</string>
+
+    <string name="settings_echo_cancellation_tail_length">Tail length (ms)</string>
+    <string name="settings_echo_cancellation_noise_reduction">Noise reduction</string>
+    <string name="settings_echo_cancellation_aggressiveness">Aggressivness</string>
+
+    <string-array name="settings_echo_cancellation_aggressiveness_entries">
+        <item>Standard</item>
+        <item>Conservative</item>
+        <item>Moderate</item>
+        <item>Aggressiv</item>
+    </string-array>
+
+    <!-- Video settings -->
+    <string name="pref_header_data_sync">Video</string>
+    <string name="settings_video_path_title">Video path</string>
+    <string name="settings_video_format">Video format</string>
+
+    <string-array name="settings_video_format_entries">
+        <item>Best fit</item>
+        <item>Fit horizontal</item>
+        <item>Fit vertical</item>
+        <item>Fill</item>
+        <item>16:9</item>
+        <item>4:3</item>
+        <item>Original</item>
+    </string-array>
+
+    <!-- Audio settings -->
+    <string name="pref_header_audio">Audio</string>
+    <string name="settings_audio_use_ringtone">Ringtone activated</string>
+    <string name="settings_audio_use_vibrator">Vibrate on call</string>
+    <string name="settings_audio_ringtone">Ringetone</string>
+
+    <!-- Control commands settings -->
+    <string name="pref_header_commands">Actions</string>
+    <string name="settings_commands_unlock_dtmf">DTMF / door opener</string>
+    <string name="settings_commands_doorpi_number">DoorPi number</string>
+
+    <!-- Notification settings -->
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="settings_notification_show">Notification on incoming call</string>
+
+    <!-- Advanced settings -->
+    <string name="pref_header_advanced">Advanced settings</string>
+    <string name="settings_advanced_start_service_on_boot">Autostart</string>
+    <string name="settings_advanced_close_after_call">Close after hang up</string>
+    <string name="settings_advanced_start_app_on_incoming_call">Open app on incoming call</string>
+
+    <!-- ABOUT -->
+    <string name="about_link_repository">GitHub Repository</string>
+    <string name="about_link_bugs">You´ve found a bug? Report it here</string>
+    <string name="about_author_mail">Andi.Dopamin@gmail.com</string>
+    <string name="about_project_name">DoorPhone</string>
+    <string name="about_version_title">Version</string>
+    <string name="about_license_title">License</string>
+    <string name="about_project_license">General Public License (GPL) 3</string>
+    <string name="about_title_bugs">Report a bug.</string>
+    <string name="about_title_author">Author</string>
+    <string name="about_author">Andreas Pfister</string>
+    <string name="about_author_git_name">d0pam1n</string>
+    <string name="about_title_mail">Send a mail</string>
+    <string name="about_title_libs">Open Source libraries</string>
+    <string name="about_lib_pjsip">PJSIP</string>
+    <string name="about_lib_pjsip_license">General Public License (GPL) 2 oder later</string>
+    <string name="about_lib_libvlc">LibVLC</string>
+    <string name="about_lib_libvlc_license">Lesser General Public License (LGPL) 2</string>
+
+    <string name="about_error_version_not_found">Error getting version number.</string>
+
+</resources>
