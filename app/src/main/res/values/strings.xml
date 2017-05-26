@@ -26,6 +26,7 @@
     <string name="param_dtmf_open_door">DTMF_OPEN_DOOR</string>
     <string name="param_close_after_call">CLOSE_AFTER_CALL</string>
     <string name="param_player_playing">PLAYER_PLAYING</string>
+    <string name="param_incoming_call">INCOMING_CALL</string>
 
     <!-- Notifications -->
     <string name="notif_incoming_call_intent_action">NOTIF_ACCEPT_CALL</string>

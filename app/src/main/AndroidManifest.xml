@@ -43,8 +43,8 @@
 
         <receiver android:name=".BroadcastReceiver.SipEventReceiver">
             <intent-filter>
-                <action android:name="com.d0pamin.siplib.INCOMING_CALL" />
-                <action android:name="com.d0pamin.siplib.CALL_STATE" />
+                <action android:name="com.d0pam1n.siplib.INCOMING_CALL" />
+                <action android:name="com.d0pam1n.siplib.CALL_STATE" />
             </intent-filter>
         </receiver>
         <receiver

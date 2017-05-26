@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 public class BroadcastEventSender {
 
-    public static final String NAMESPACE = "com.d0pamin.siplib";
+    public static final String NAMESPACE = "com.d0pam1n.siplib";
 
     private Context mContext;
 

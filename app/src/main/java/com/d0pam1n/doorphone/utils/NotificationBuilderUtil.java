@@ -30,6 +30,7 @@ public class NotificationBuilderUtil {
         Intent activityIntent = new Intent(context, MainActivity.class);
         activityIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
         activityIntent.putExtra(context.getString(R.string.param_call_id), callID);
+        activityIntent.putExtra(context.getString(R.string.param_incoming_call), true);
 
         Intent actionIntent = new Intent(context.getString(R.string.package_name) + "." + context.getString(R.string.notif_incoming_call_intent_action));
         actionIntent.putExtra(context.getString(R.string.param_account_id), accountID);

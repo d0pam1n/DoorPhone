@@ -35,6 +35,7 @@ public class SipEventReceiver extends BroadcastEventReceiver {
             intent.putExtra(context.getString(R.string.param_call_id), callID);
             intent.putExtra(context.getString(R.string.param_player_playing), true);
             intent.putExtra(context.getString(R.string.param_close_after_call), true);
+            intent.putExtra(context.getString(R.string.param_incoming_call), true);
             context.startActivity(intent);
         }
     }

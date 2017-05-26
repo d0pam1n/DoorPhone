@@ -159,6 +159,7 @@ public class MainActivity extends BaseActivity implements IVLCVout.Callback {
         SipCommands.getCallStatus(this, SettingsUtil.getConfiguredSipAccount(this).getIdUri(), mCallId);
 
         mCloseAfterCall = getIntent().getBooleanExtra(getString(R.string.param_close_after_call), false);
+        mIncomingCall = getIntent().getBooleanExtra(getString(R.string.param_incoming_call), false);
 
         uncheckAllMenuItems();
 
@@ -209,6 +210,7 @@ public class MainActivity extends BaseActivity implements IVLCVout.Callback {
 
         mIsPlaying = intent.getBooleanExtra(getString(R.string.param_player_playing), false);
         mCloseAfterCall = getIntent().getBooleanExtra(getString(R.string.param_close_after_call), false);
+        mIncomingCall = getIntent().getBooleanExtra(getString(R.string.param_incoming_call), false);
 
         super.onNewIntent(intent);
     }
