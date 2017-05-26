@@ -61,7 +61,7 @@ public class AboutActivity extends BaseActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("https://github.com/AndreasPfister/doorphone"));
+                        Uri.parse("https://github.com/d0pam1n/doorphone"));
                 startActivity(i);
 
             }
@@ -72,7 +72,7 @@ public class AboutActivity extends BaseActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("https://github.com/AndreasPfister/doorphone/issues"));
+                        Uri.parse("https://github.com/d0pam1n/doorphone/issues"));
                 startActivity(i);
             }
         });

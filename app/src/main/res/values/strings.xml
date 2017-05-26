@@ -143,7 +143,7 @@
     <string name="about_title_bugs">Einen Fehler melden</string>
     <string name="about_title_author">Autor</string>
     <string name="about_author">Andreas Pfister</string>
-    <string name="about_author_git_name">AndreasPfister</string>
+    <string name="about_author_git_name">d0pam1n</string>
     <string name="about_title_mail">Eine E-Mail senden</string>
     <string name="about_title_libs">Open Source Bibliotheken</string>
     <string name="about_lib_pjsip">PJSIP</string>
