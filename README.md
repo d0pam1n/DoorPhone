@@ -1,3 +1,5 @@
+## This repository will not be updated in the future. I´m currently working on a crossplatform implementation based on Xamarin. 
+
 # DoorPhone
 DoorPhone is an Android APP acting like a SIP-Client for an Door-Intercomstation. This project is delevoped in connection with the Open Source Software [DoorPi](https://github.com/motom001/DoorPi) but could be used with other "doorbell" software too.
 
